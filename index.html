@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- <link rel="stylesheet" type="text/css" href=""> -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+	<title>Scholarship Form</title>
+</head>
+
+<body>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h2>Register for Fresh Application</h2>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>or use your email for registration</span>
+			<input type="text" placeholder="Name" />
+			<input type="text" placeholder="Address" />
+			<input type="text" placeholder="Zip Code" />
+			<input type="text" placeholder="Highest Degree Earned" />
+			<input type="text" placeholder="Date of Birth (DD/MM/YYYY)" />
+			<select name="cars" id="cars" placeholder="select">
+			    <option style="color: grey;" value="volvo">Major Field of Study</option>
+			    <option value="Technology">Technology</option>
+			    <option value="Accountacy">Accountacy</option>
+			    <option value="Medical">Medical</option>
+		    </select>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+
+			<button>Submit</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h2>Login to Dashboard</h2>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>or use your account</span>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<a href="#">Forgot your password?</a>
+			<button>Sign In</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Already Applied !</h1>
+				<p>To check your application status, please login with your personal info</p>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hello, Geeks!</h1>
+				<p>Enter your personal details to check the status of your application <br> <br>Not applied? then Register now</p>
+				<button class="ghost" id="signUp">Register</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
